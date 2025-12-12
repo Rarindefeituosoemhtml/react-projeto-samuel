@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "email": "wearrarin",
+      "senha": "1978"
+    }
+  ],
+  "camisas": [
+    {
+      "nome": "camisa oversized drop Mask Off ",
+      "categorias": [
+        "oversized"
+      ],
+      "descricao": "camisa de cor preta com estampa dupla frente e costas ",
+      "imagens": [
+        "camisaMaskFrente"
+      ],
+      "id": "f5r1",
+      "preco": 150
+     
+    }
+   
+  ]
+}
