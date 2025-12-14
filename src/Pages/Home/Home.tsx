@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
 import "./Home.css"
 
 // import amostraCamisa from "../../assets/img/bannerCamisaHome.png" 
 // import amostraCalca from "../../assets/img/bannerCalcaHome.png" 
 // import amostraBone from "../../assets/img/DropMaskFrente.png" 
+
 
 
 export default function Home() {
@@ -14,27 +16,26 @@ export default function Home() {
 
       <div className="modelos">
         
-        <a className="camisa" href="">
-          <div>
-            <p>Camisas</p>
-          </div>
-           {/* <img src={amostraCamisa} alt="categoria de camisas"/> */}
-        </a>
+        
+  <Link to="/produtos/camisas" className="camisa">
+    <div>
+      <p>Camisas</p>
+    </div>
+  </Link>
 
-        <a className="calca" href="">
-           {/* <img src={amostraCalca} alt="categoria de calças"/>  */}
-          <div>
-          <p>Calças</p>
-          </div>
-        </a>
+        <Link to="/produtos/calcas" className="calca">
+    <div>
+      <p>Calças</p>
+    </div>
+  </Link>
 
 
-        <a className="bone" href="">
-           {/* <img src={amostraBone} alt="categoria de bonés"> </img> */}
-          <div>
-          <p className="span_bone">Boné</p>
-        </div>
-        </a>
+         <Link to="/produtos/bone" className="bone">
+    <div>
+      <p className="span_bone">Boné</p>
+    </div>
+  </Link>
+
 
 
 
