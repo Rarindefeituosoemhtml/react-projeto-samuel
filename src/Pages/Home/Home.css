@@ -169,8 +169,8 @@ background-image: url("../../assets/img/bannerCalcaHome.png");
 
 
 footer{
-  width:100vw;  
-  height: 150px;
+  width:100%;  
+  height: 100px;
   background-color: #4f4f4f;
   display: flex;
   justify-content: center;
@@ -179,12 +179,14 @@ footer{
 
 }
 
-.logo{
+.wearrarinlogo{
 
  align-items: center;
- width: 200px;
- height: 106px;
-
+font-size: 3.4rem;
+font-weight: 750;
+letter-spacing: 5px;
+color: rgb(255, 255, 255);
+  
 
 }
 
