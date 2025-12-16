@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.icons,
+.icons_fim {
+  display: flex;
+  gap: 20px;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.logo {
+  text-transform: uppercase;
+}

@@ -6,9 +6,16 @@ import App from './App.tsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
+
+<BrowserRouter>
+  <App />
+</BrowserRouter>
+
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
+    
       <App />
     </BrowserRouter>
   </StrictMode>,
