@@ -1,28 +1,14 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Produtos from './Pages/Produtos/Produtos'
-import Home from './Pages/Home/Home'
-
-
-
-
-
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home/Home";
+import Camisas from "./Pages/PageCamisas/Camisas";
 
 function App() {
-
-
   return (
-    <>
-     <BrowserRouter> 
-     <Routes>
-    <Route path="/produtos" element={ <Produtos />} />
-    <Route path="/" element={ <Home />} />
-    
-
-
-     </Routes>
-     </BrowserRouter>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/camisas" element={<Camisas />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;

@@ -7,6 +7,7 @@ import "./Home.css"
 
 
 
+
 export default function Home() {
   return (
     <>
@@ -17,20 +18,20 @@ export default function Home() {
       <div className="modelos">
         
         
-  <Link to="/produtos/camisas" className="camisa">
+  <Link to="/camisas" className="camisa">
     <div>
       <p>Camisas</p>
     </div>
   </Link>
 
-        <Link to="/produtos/calcas" className="calca">
+        <Link to="/calcas" className="calca">
     <div>
       <p>Calças</p>
     </div>
   </Link>
 
 
-         <Link to="/produtos/bone" className="bone">
+         <Link to="/bone" className="bone">
     <div>
       <p className="span_bone">Boné</p>
     </div>
