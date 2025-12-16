@@ -3,6 +3,10 @@ import Produtos from './Pages/Produtos/Produtos'
 import Home from './Pages/Home/Home'
 
 
+
+
+
+
 function App() {
 
 
@@ -12,6 +16,7 @@ function App() {
      <Routes>
     <Route path="/produtos" element={ <Produtos />} />
     <Route path="/" element={ <Home />} />
+    
 
 
      </Routes>
